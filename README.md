@@ -10,6 +10,8 @@ Computational Neuroscience
   2. Fork this repository and clone it locally! Navigate into specific folders (made them very specific) and look at the ```README.md``` file for that specific folder for which file(s) to run to see examples of what computational neuroscience can do! Enjoy!
 
 <h2>What each file/folder in this repository is for:</h2>
+  - imagesForExplanation = contains images used in other folder's ```README.md``` files for explanation so don't worry about this folder
+  - README.md = the file you are reading right now
 
 <h2>Review</h2>
 - What = Descriptive Models
@@ -20,6 +22,12 @@ Computational Neuroscience
   + Support: Hubel and Wiesel, c, 1965
     - Summary: electrodes where implanted in the visual area of a cat's brain. The amazing thing is that specific neurons in the brain only spiked when a bar the cat was looking at was oriented in a certain way. For example, when the bar was vertical a specific set of neurons spiked and when the bar was horizontal another specific set of neurons spiked.
     - Frequency of spikes = function( bar's orientation )
+   + Descriptive Model of Receptive Fields in the Retina
+    - center-surround receptive fields in the retina look like this:  
+    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaCenterSurroundReceptiveField.gif)
+
+    - activity of cells looking at a horizontal bar from retina -> LGN -> V1 (Primary Visual Cortex)  
+    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaToLGNToV1.gif)
     
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
