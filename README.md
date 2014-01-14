@@ -2,6 +2,7 @@ Computational Neuroscience
 ==========================
 
 *"Computational neuroscience provides tools and methods for characterizing WHAT nervous systems do, determining HOW they function, and understanding WHY they operate in particular ways"*  
+  
 ~ P. Dayan and L. Abbott
 
 <h2>How to use this code</h2>
@@ -14,9 +15,9 @@ Computational Neuroscience
   - README.md = the file you are reading right now
 
 <h2>Review</h2>
-- What = Descriptive Models
-- How = Mechanistic Models
-- Why = Interpretive Models
+What = Descriptive Models  
+How = Mechanistic Models  
+Why = Interpretive Models
 
 - Receptive Fields = specific properties of a sensory stimulus that generate a strong response from the neuron
   + Support: Hubel and Wiesel, c, 1965
@@ -26,8 +27,9 @@ Computational Neuroscience
     - center-surround receptive fields in the retina look like this:  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaCenterSurroundReceptiveField.gif)
 
-    - activity of cells looking at a horizontal bar from retina -> LGN -> V1 (Primary Visual Cortex)  
+    - activity of cells looking at a horizontal bar from Retina -> LGN -> V1 (Primary Visual Cortex)  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaToLGNToV1.gif)
+    - Notice that the receptive fields of neurons in V1 are now elipse shaped instead of circle shaped.
     
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
