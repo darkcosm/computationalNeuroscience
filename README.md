@@ -14,7 +14,7 @@ Computational Neuroscience
   - imagesForExplanation = contains images used in other folder's ```README.md``` files for explanation so don't worry about this folder
   - README.md = the file you are reading right now
 
-<h2>Review</h2>
+<h2>Receptive Field Review</h2>
 What = Descriptive Models  
 How = Mechanistic Models  
 Why = Interpretive Models
@@ -23,13 +23,23 @@ Why = Interpretive Models
   + Support: Hubel and Wiesel, c, 1965
     - Summary: electrodes where implanted in the visual area of a cat's brain. The amazing thing is that specific neurons in the brain only spiked when a bar the cat was looking at was oriented in a certain way. For example, when the bar was vertical a specific set of neurons spiked and when the bar was horizontal another specific set of neurons spiked.
     - Frequency of spikes = function( bar's orientation )
-   + Descriptive Model of Receptive Fields in the Retina
+   + WHAT: Descriptive Model of Receptive Fields in the Retina
     - center-surround receptive fields in the retina look like this:  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaCenterSurroundReceptiveField.gif)
 
     - activity of cells looking at a horizontal bar from Retina -> LGN -> V1 (Primary Visual Cortex)  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaToLGNToV1.gif)
-    - Notice that the receptive fields of neurons in V1 are now elipse shaped instead of circle shaped.
+    - Notice that the receptive fields of neurons in V1 are now elipse shaped instead of circle shaped. These are called oriented receptive fields.
+   + HOW: Mechanistic Model of Receptive Fields in V1
+    - In 1960s it was suggested the V1 receptive field is created from converging LGN cell inputs in the following way:  
+    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/MechanisticModelOfV1Neurons.jpg)
+   + WHY: Interpretive Models of Receptive Fields in V1
+    - Example of receptive fields in V1:  
+    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/ExampleReceptiveFieldsOfV1Neurons.jpg)
+
+<h2>Neurobiology Review</h2>
+
+
     
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
