@@ -38,8 +38,13 @@ Why = Interpretive Models
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/ExampleReceptiveFieldsOfV1Neurons.jpg)
 
 <h2>Neurobiology Review</h2>
-
-
+   - Synapses = a connection between 2 neurons. There are 2 different types
+     + Electrical synapses use gap junctions where there are ion channels connecting the 2 neurons. 
+     + Chemical synapses use neurotransmitters
+   - Neurons  
+   ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/Neuron.jpg)
+   - Spike Timing Dependent Plasticity (STDP)  
+   ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTimingDependentPlasticity.jpg)
     
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
