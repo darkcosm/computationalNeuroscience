@@ -41,8 +41,16 @@ Why = Interpretive Models
    - Synapses = a connection between 2 neurons. There are 2 different types
      + Electrical synapses use gap junctions where there are ion channels connecting the 2 neurons. 
      + Chemical synapses use neurotransmitters
-   - Neurons  
+     
+   - Neurons with synapses stained yellow and red: 
    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/Neuron.jpg)
+     + Neuron Doctrine:
+       - The neuron is the fundamental structural & functional unit of the brain
+       - Neurons are discrete cells and not continuous with other cells (with some exceptions)
+       - Information flows from the dendrites to the axon via the cell body (with some exceptions)
+     + Here we have drawings of some different types of neurons:  
+     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SomeTypesOfBrainCells.jpg) 
+     
    - Spike Timing Dependent Plasticity (STDP)  
    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTimingDependentPlasticity.jpg)
     
