@@ -55,6 +55,9 @@ Why = Interpretive Models
 
      + Grey matter is both input and output  
      ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/GreyAndWhiteMatter.jpg) 
+
+     + This is how the Neurons are arranged in the 6 layers of the neocortex:  
+     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/CellOrganizationInNeocortex.jpg) 
      
    - Spike Timing Dependent Plasticity (STDP)  
    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTimingDependentPlasticity.jpg)
