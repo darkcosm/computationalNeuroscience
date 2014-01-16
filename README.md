@@ -44,12 +44,17 @@ Why = Interpretive Models
      
    - Neurons with synapses stained yellow and red: 
    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/Neuron.jpg)
+
      + Neuron Doctrine:
        - The neuron is the fundamental structural & functional unit of the brain
        - Neurons are discrete cells and not continuous with other cells (with some exceptions)
        - Information flows from the dendrites to the axon via the cell body (with some exceptions)
+
      + Here we have drawings of some different types of neurons:  
-     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SomeTypesOfBrainCells.jpg) 
+     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/MoreTypesOfBrainCells.jpg) 
+
+     + Grey matter is both input and output  
+     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/GreyAndWhiteMatter.jpg) 
      
    - Spike Timing Dependent Plasticity (STDP)  
    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTimingDependentPlasticity.jpg)
