@@ -61,6 +61,17 @@ Why = Interpretive Models
      
    - Spike Timing Dependent Plasticity (STDP)  
    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTimingDependentPlasticity.jpg)
+
+<h2>Neural Code</h2>
+   - Innovative techniques for recording the brain
+     + Calcium imaging. Calcium enters a neuron when it is spiking.  
+     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/CalciumImaging.jpg)
+       - This is allows us to create a Raster plot:  
+       ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RasterPlotOfNeuron.jpg)
+       Each red dot is when a neuron spiked while a person watched the same 20 second video. Pretty amazing!
+
+       - And here is a Raster plot for a group of neurons:
+       ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RasterPlotOfManyNeurons.jpg)
     
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
