@@ -66,12 +66,17 @@ Why = Interpretive Models
    - Innovative techniques for recording the brain
      + Calcium imaging. Calcium enters a neuron when it is spiking.  
      ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/CalciumImaging.jpg)
-       - This is allows us to create a Raster plot:  
-       ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RasterPlotOfNeuron.jpg)
+       - If we record when calcium is entering a neuron we can create a graph of when the neuron is spiking and create a Raster plot:  
+       ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RasterPlotOfNeuron.jpg)  
        Each red dot is when a neuron spiked while a person watched the same 20 second video. Pretty amazing!
 
-       - And here is a Raster plot for a group of neurons:
-       ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RasterPlotOfManyNeurons.jpg)
+       - And here is a Raster plot for a group of neurons watching the same video many times over:
+       ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RasterPlotOfManyNeurons.jpg)  
+       This is extremely beautiful and it tells us that each neuron is encoding some feature of the video the person is watching over and over again.
+   - Encoding and decoding
+      + Probability(response | stimulus) = encoding
+      + Probability(stimulus | response) = decoding
+
     
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
