@@ -74,8 +74,14 @@ Why = Interpretive Models
        ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RasterPlotOfManyNeurons.jpg)  
        This is extremely beautiful and it tells us that each neuron is encoding some feature of the video the person is watching over and over again.
    - Encoding and decoding
-      + Probability(response | stimulus) = encoding
-      + Probability(stimulus | response) = decoding
+      + vertical bar "|" = given
+      + Probability(neuron response | specific stimulus) = encoding
+      + Probability(specific stimulus | neuron response) = decoding
+
+   - Tuning Curves. In Figure A the black bars oriented in different directions represent bars of light with the 
+     neuron response to the right. Figure B is a graph of the data shown in Figure A where a V1 neuron's response
+     matches a gaussian distribution.  
+     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/TuningCurves.jpg)
 
     
 ===================================================================
