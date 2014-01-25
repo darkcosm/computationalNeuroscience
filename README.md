@@ -83,6 +83,8 @@ Why = Interpretive Models
      matches a gaussian distribution.  
      ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/TuningCurves.jpg)
 
+   - Probability(neuron spik | specific stimulus)
+
     
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
