@@ -5,12 +5,12 @@ load('c1p8.mat');
 sampling_period = ; % in ms
 num_timesteps = ;
 
-sta = compute_sta(stim, rho, num_timesteps);
+spikeTriggeredAverage = computeSpikeTriggeredAverage(stim, rho, num_timesteps);
 
 time = -sampling_period*(num_timesteps-1):sampling_period:0; % in ms
 
 figure(1);
-plot(time, sta);
+plot(time, spikeTriggeredAverage);
 xlabel('Time (ms)');
 ylabel('Stimulus');
 title('Spike-Triggered Average');

@@ -1,5 +1,5 @@
-function [ sta ] = compute_sta( stim, rho, num_timesteps )
-%COMPUTE_STA Calculates the spike-triggered average for a neuron that
+function [ sta ] = computeSpikeTriggeredAverage( stim, rho, num_timesteps )
+%computeSpikeTriggeredAverage Calculates the spike-triggered average for a neuron that
 %            is driven by a stimulus defined in stim. The spike-
 %            triggered average is computed over num_timesteps timesteps.
     sta = zeros(num_timesteps, 1);
