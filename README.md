@@ -83,7 +83,14 @@ Why = Interpretive Models
      matches a gaussian distribution.  
      ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/TuningCurves.jpg)
 
-   - Probability(neuron spik | specific stimulus)
+   - Probability(neuron spike | specific stimulus)
+     + feature selection from specific stimulus to response (example neuron spiking)  
+     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/FeatureSelection.jpg)
+     + How do we create this probabilistic model of a neuron spiking when given a specific stimulus???????
+       - Step 1) We give a real neuron some input over time and record whenever it spikes shown in red in the figure below!  
+       - Step 2) We record the activity of the neuron a few moments before the spike highlighted in light blue
+       - Step 3) We
+       ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTriggeredAverage.jpg)
 
     
 ===================================================================
