@@ -89,7 +89,8 @@ Why = Interpretive Models
      + How do we create this probabilistic model of a neuron spiking when given a specific stimulus???????
        - Step 1) We give a real neuron some input over time and record whenever it spikes shown in red in the figure below!  
        - Step 2) We record the activity of the neuron a few moments before the spike highlighted in light blue
-       - Step 3) We
+       - Step 3) We take all the activity in light blue and average the activity to produce a model of what the neuron fires to.
+       WARNING!!!!!!!!!! Is this the correct thing to do???? Making it less noisy may be the wrong goal!
        ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTriggeredAverage.jpg)
 
     
