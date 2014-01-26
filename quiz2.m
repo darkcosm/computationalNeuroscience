@@ -1,13 +1,18 @@
 close all; clear all; clc;
 load('c1p8.mat');
 
-% Fill in these values
-sampling_period = ; % in ms
-num_timesteps = ;
+stimulusVector = stim; % stimulus = 600000 x 1 column vector
 
-spikeTriggeredAverage = computeSpikeTriggeredAverage(stim, rho, num_timesteps);
+% neuronSpikeVector = has a 1 is a spike occured in the time bin corresponding to that index and a 0 otherwise
+neuronSpikeVector = rho % neuronSpikeVector = 600000 x 1 column vector
 
-time = -sampling_period*(num_timesteps-1):sampling_period:0; % in ms
+% sampling rate = 500 Hz
+samplingPeriod = ; % in ms
+numberOfTimeSteps = ;
+
+spikeTriggeredAverage = computeSpikeTriggeredAverage(stimulusVector, neuronSpikeVector, numberOfTimeSteps);
+
+time = -samplingPeriod*(numberOfTimeSteps-1):samplingPeriod:0; % in ms
 
 figure(1);
 plot(time, spikeTriggeredAverage);
