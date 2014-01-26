@@ -92,6 +92,9 @@ Why = Interpretive Models
        - Step 3) We take all the activity in light blue and average the activity to produce a model of what the neuron fires to.
        WARNING!!!!!!!!!! Is this the correct thing to do???? Making it less noisy may be the wrong goal!
        ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/SpikeTriggeredAverage.jpg)
+     + After creating the probabilistic model we now want to determine the nonlinear input/output function
+       - The input/output function = Probability(neuron spike | specific stimulus = s_1) 
+         + Using Bayes' rule we have: P(spike | s_1) = P(s_1 | spike) * P(spike) / P(s_1)
 
     
 ===================================================================
