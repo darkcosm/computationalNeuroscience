@@ -1,18 +1,16 @@
-function [ sta ] = computeSpikeTriggeredAverage( stim, rho, num_timesteps )
+function [ spikeTriggeredAverage ] = computeSpikeTriggeredAverage( stimulusVector, neuronSpikeVector, numberOfTimeSteps )
 %computeSpikeTriggeredAverage Calculates the spike-triggered average for a neuron that
-%            is driven by a stimulus defined in stim. The spike-
-%            triggered average is computed over num_timesteps timesteps.
-    sta = zeros(num_timesteps, 1);
+%            is driven by a stimulus defined in stimulusVector. The spike-
+%            triggered average is computed over numberOfTimeSteps timesteps.
+    spikeTriggeredAverage = zeros(numberOfTimeSteps, 1);
 
     % This command finds the indices of all of the spikes that occur
     % after 300 ms into the recording.
-    spike_times = find(rho(num_timesteps+1:end)) + num_timesteps;
+    spikeTimes = find(neuronSpikeVector(numberOfTimeSteps+1:end)) + numberOfTimeSteps;
 
     % Fill in this value. Note that you should not count spikes that occur
     % before 300 ms into the recording.
-    num_spikes = ;
-    
-
+    numberOfSpikes = length(spikeTimes);
     
     % Compute the spike-triggered average of the spikes found using the
     % find command. To do this, compute the average of all of the vectors
@@ -21,8 +19,13 @@ function [ sta ] = computeSpikeTriggeredAverage( stim, rho, num_timesteps )
     % samples that is contained within a window of 300 ms before the each
     % spike. The average of these vectors should be completed in an
     % element-wise manner.
-    % 
-    % Your code goes here.
+
+    for i = 1:numberOfSpikes,
+        window = stimulus( (spikeTimes(i) - numberOfTimeSteps + 1) : spikeTimes(i) );
+        spikeTriggeredAverage = spikeTriggeredAverage + window;
+    end
+
+    spikeTriggeredAverage = spikeTriggeredAverage / numberOfSpikes;
 
 end
 
