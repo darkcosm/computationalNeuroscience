@@ -11,6 +11,7 @@ function [ spikeTriggeredAverage ] = computeSpikeTriggeredAverage( stimulusVecto
     % Fill in this value. Note that you should not count spikes that occur
     % before 300 ms into the recording.
     numberOfSpikes = length(spikeTimes);
+    fprintf('numberOfSpikes = %d\n', numberOfSpikes);
     
     % Compute the spike-triggered average of the spikes found using the
     % find command. To do this, compute the average of all of the vectors
@@ -21,7 +22,7 @@ function [ spikeTriggeredAverage ] = computeSpikeTriggeredAverage( stimulusVecto
     % element-wise manner.
 
     for i = 1:numberOfSpikes,
-        window = stimulus( (spikeTimes(i) - numberOfTimeSteps + 1) : spikeTimes(i) );
+        window = stimulusVector( (spikeTimes(i) - numberOfTimeSteps + 1) : spikeTimes(i) );
         spikeTriggeredAverage = spikeTriggeredAverage + window;
     end
 
