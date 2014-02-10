@@ -10,19 +10,22 @@ Why = Interpretive Models
   + Support: Hubel and Wiesel, c, 1965
     - Summary: electrodes where implanted in the visual area of a cat's brain. The amazing thing is that specific neurons in the brain only spiked when a bar the cat was looking at was oriented in a certain way. For example, when the bar was vertical a specific set of neurons spiked and when the bar was horizontal another specific set of neurons spiked.
     - Frequency of spikes = function( bar's orientation )
-   + WHAT: Descriptive Model of Receptive Fields in the Retina
+  + WHAT: Descriptive Model of Receptive Fields in the Retina
     - center-surround receptive fields in the retina look like this:  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaCenterSurroundReceptiveField.gif)
 
     - activity of cells looking at a horizontal bar from Retina -> LGN -> V1 (Primary Visual Cortex)  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/RetinaToLGNToV1.gif)
     - Notice that the receptive fields of neurons in V1 are now elipse shaped instead of circle shaped. These are called oriented receptive fields.
-   + HOW: Mechanistic Model of Receptive Fields in V1
+  + HOW: Mechanistic Model of Receptive Fields in V1
     - In 1960s it was suggested the V1 receptive field is created from converging LGN cell inputs in the following way:  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/MechanisticModelOfV1Neurons.jpg)
-   + WHY: Interpretive Models of Receptive Fields in V1
+  + WHY: Interpretive Models of Receptive Fields in V1
     - Example of receptive fields in V1:  
     ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/ExampleReceptiveFieldsOfV1Neurons.jpg)
+
+    - Receptive fields of retina cells in different light levels:
+    ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/ReceptiveFieldOfRetinaCellInDifferentLightLevel.jpg)
 
 <h2>Neurobiology Review</h2>
    - Synapses = a connection between 2 neurons. There are 2 different types
@@ -90,3 +93,8 @@ Why = Interpretive Models
       + where P(r|s) = conditional distribution = likelihood function
       + where P(s) = prior distribution
       + where P(r) = marginal distribution
+
+<h2>Information & Entropy</h2>
+- Entropy counts the number of yes/no questions it takes to get to a specific variable within the entire group of variables
+
+- Entropy = - Sum from i = 1 to n of Probability_of_picking_i_out_of_n * log_base_2 of (Probability_of_picking_i_out_of_n)
