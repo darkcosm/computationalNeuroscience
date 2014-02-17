@@ -12,8 +12,11 @@ Computational Neuroscience
 
 <h2>What each file/folder in this repository is for:</h2>
   - imagesForExplanation = contains images used in other folder's ```README.md``` files for explanation so don't worry about this folder
+  - neuronResponsePlot = plots of 2 neurons responses as guassian distributions to discover the best threshold to differentiate between the 2 reponses
   - spikeTriggeredAverage = example code to simulate leaky integrater neuron
+  - tunningCurvePlot
   - README.md = the file you are reading right now
+  - Review.md = overview of important neuroscience topics 
 
 ===================================================================
 Feel free to e-mail me at quinnliu@vt.edu for any questions. Enjoy!
