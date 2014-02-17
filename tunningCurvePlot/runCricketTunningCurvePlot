@@ -1,4 +1,4 @@
-close all; clear all; clc;
+close all; clear all; clc; % clear old plots
 
 load('tuning.mat')
 
@@ -9,10 +9,10 @@ responses(:,:,4) = neuron4;
 
 meanResponse=squeeze(mean(responses,1));
 
-plot(stim,meanResponse)
+plot(stim, meanResponse)
 legend('1','2','3','4')
 
-peakCount=responses*10;
+peakCount = responses * 10;
 
 figure
 
@@ -33,11 +33,13 @@ rmax=max(squeeze(max(responses,[],1)),[],1);
 
 ratio=r./repmat(rmax,size(r,1),1);
 vpop=zeros(size(ratio,1),2);
+
 for i=1:4
     
     vpop=vpop+repmat(ratio(:,i),1,2).*repmat(c(i,:),size(ratio,1),1);
     
 end
+
 figure
 plot(vpop(:,1),vpop(:,2),'.')
 set(gca,'YLim',[-1,1],'XLim',[-1,1])
