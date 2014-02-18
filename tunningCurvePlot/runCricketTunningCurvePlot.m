@@ -22,23 +22,29 @@ stimulus = stim;
 % stimulus = direction of the air velocity
 plot(stimulus, meanResponse)
 legend('Neuron 1','Neuron 2','Neuron 3','Neuron 4')
-title('Air Velocity vs. Neuron Response')
-xlabel('Air Velocity Speed (Stimulus)')
+title('Air Velocity Stimulus vs. Neuron Response')
+xlabel('Air Velocity Speed Stimulus')
 ylabel('Mean Neuron Response')
 
 peakCount = neuronResponseMatrix * 10;
 
 figure
 
-subplot(2,1,1)
-meanPeakCount=squeeze(mean(peakCount,1));
+subplot(3,1,1)
+meanPeakCount = squeeze(mean(peakCount,1));
 plot(stimulus,meanPeakCount)
 legend('Neuron 1','Neuron 2','Neuron 3','Neuron 4')
-
-subplot(2,1,2)
-varPeakCount=squeeze(var(peakCount,1));
-plot(stimulus,varPeakCount)
+title('Air Velocity Stimulus vs. Mean Neuron Response * 10')
+xlabel('Air Velocity Speed Stimulus')
+ylabel('Mean Neuron Response * 10')
+ 
+subplot(3,1,3)
+variancePeakCount = squeeze(var(peakCount,1));
+plot(stimulus,variancePeakCount ) 
 legend('Neuron 1','Neuron 2','Neuron 3','Neuron 4')
+title('Air Velocity Stimulus vs. Variance Neuron Response')
+xlabel('Air Velocity Speed Stimulus')
+ylabel('Variance Neuron Response')
 
 % load('pop_coding.mat')
 
