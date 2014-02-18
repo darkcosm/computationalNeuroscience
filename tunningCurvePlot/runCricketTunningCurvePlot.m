@@ -1,5 +1,5 @@
 close all; clear all; clc; % clear old plots
-
+% ========================= Experiment 1 ======================================
 % this experiment is based on a set of artificial "experiments" that
 % we've run on four simulated neurons that emulate the behavior found
 % in the cercal organs of a cricket.
@@ -39,34 +39,12 @@ xlabel('Air Velocity Speed Stimulus')
 ylabel('Mean Neuron Response * 10')
  
 subplot(3,1,3)
+
+% by plotting the variance we can show that Neuron 3 response is not based on the 
+% Poisson distribution. 
 variancePeakCount = squeeze(var(peakCount,1));
 plot(stimulus,variancePeakCount ) 
 legend('Neuron 1','Neuron 2','Neuron 3','Neuron 4')
 title('Air Velocity Stimulus vs. Variance Neuron Response')
 xlabel('Air Velocity Speed Stimulus')
 ylabel('Variance Neuron Response')
-
-% load('pop_coding.mat')
-
-% r=[r1',r2',r3',r4'];
-
-% c=[c1;c2;c3;c4];
-
-% rmax=max(squeeze(max(neuronResponseMatrix,[],1)),[],1);
-
-% ratio=r./repmat(rmax,size(r,1),1);
-% vpop=zeros(size(ratio,1),2);
-
-% for i=1:4
-    
-%     vpop=vpop+repmat(ratio(:,i),1,2).*repmat(c(i,:),size(ratio,1),1);
-    
-% end
-
-% figure
-% plot(vpop(:,1),vpop(:,2),'.')
-% set(gca,'YLim',[-1,1],'XLim',[-1,1])
-
-
-% [s,~]=cart2compass(vpop(:,1),vpop(:,2));
-% mean(s)
