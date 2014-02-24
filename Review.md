@@ -98,3 +98,7 @@ Why = Interpretive Models
 - Entropy counts the number of yes/no questions it takes to get to a specific variable within the entire group of variables
 
 - Entropy = - Sum from i = 1 to n of Probability_of_picking_i_out_of_n * log_base_2 of (Probability_of_picking_i_out_of_n)
+
+<h2>Modeling Single Neurons</h2>
+- A interesting way to think of a neuron is as a battery as shown in the following image withouts it's dendrites and axons:  
+  ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/NeuronBatteryModel.jpg)
