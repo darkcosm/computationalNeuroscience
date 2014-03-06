@@ -114,4 +114,7 @@ Why = Interpretive Models
 
 - resistor = lipid bilayer; capacitor = ion channels; battery = ion gradient
 
+- different ways different types of neurons can fire:  
+  ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/DifferentWaysNeuronsFire.jpg)
+
 
