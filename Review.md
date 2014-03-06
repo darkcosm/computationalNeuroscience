@@ -102,3 +102,16 @@ Why = Interpretive Models
 <h2>Modeling Single Neurons</h2>
 - A interesting way to think of a neuron is as a battery as shown in the following image withouts it's dendrites and axons:  
   ![alt text](https://raw.github.com/quinnliu/ComputationalNeuroscience/master/imagesForExplanation/NeuronBatteryModel.jpg)
+
+- Now within the lipid bilayer shown as the blue & yellow circle above there are also ion channels that allow
+  ```K+```, ```Na+```, ```Cl-```, & ```Ca^2+``` to pass through the lipid bilayer. 
+  + Many people do not realize there are many different types of ion channcels
+    - voltage dependent
+    - transmitter dependent (within the synaptic cleft)
+    - Ca dependent
+    - mechanosensitive
+    - heat sensitive
+
+- resistor = lipid bilayer; capacitor = ion channels; battery = ion gradient
+
+
