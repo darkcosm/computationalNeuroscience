@@ -11,10 +11,11 @@ Computational Neuroscience
   2. Fork this repository and clone it locally! Navigate into specific folders (made them very specific) and look at the ```README.md``` file for that specific folder for which file(s) to run to see examples of what computational neuroscience can do! Enjoy!
 
 <h2>What each file/folder in this repository is for:</h2>
+  - neuronModeling = model of integrate and fire neuron and model of neuron voltage membrane
   - imagesForExplanation = contains images used in other folder's ```README.md``` files for explanation so don't worry about this folder
   - neuronResponsePlot = plots of 2 neurons responses as guassian distributions to discover the best threshold to differentiate between the 2 reponses
   - spikeTriggeredAverage = example code to simulate leaky integrater neuron
-  - tunningCurvePlot
+  - tunningCurvePlot = modeling tunning curves of air velocity detection neurons for crickets
   - README.md = the file you are reading right now
   - Review.md = overview of important neuroscience topics 
 
